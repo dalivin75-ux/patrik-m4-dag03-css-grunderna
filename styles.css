@@ -65,6 +65,11 @@ article {
   border: 1px solid #e3d5c3;
   border-radius: 8px;
   background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(43, 28, 20, 0.12);
+}
+
+.meny-lista article:nth-child(even) {
+  background-color: #fffaf3;
 }
 
 img {

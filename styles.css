@@ -95,6 +95,75 @@ a {
   background-color: #6f0c0c;
 }
 
+form {
+  max-width: 640px;
+}
+
+.falt {
+  margin-bottom: 16px;
+}
+
+.falt label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.falt input,
+.falt select,
+.falt textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e3d5c3;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: #222222;
+  font: inherit;
+}
+
+.falt textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.falt input:focus,
+.falt select:focus,
+.falt textarea:focus {
+  border-color: #8c1010;
+  outline: 2px solid #8c1010;
+  outline-offset: 2px;
+}
+
+fieldset {
+  margin: 0 0 16px;
+  padding: 16px;
+  border: 1px solid #e3d5c3;
+  border-radius: 6px;
+}
+
+legend {
+  padding: 0 8px;
+  font-weight: bold;
+}
+
+.val {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.val:last-child {
+  margin-bottom: 0;
+}
+
+.val input[type="checkbox"],
+.val input[type="radio"] {
+  flex: 0 0 auto;
+  margin: 3px 0 0;
+  accent-color: #8c1010;
+}
+
 /*
 article box model:
 +---------------------------+
